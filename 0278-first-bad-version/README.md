@@ -3,14 +3,6 @@
 <p>Suppose you have <code>n</code> versions <code>[1, 2, ..., n]</code> and you want to find out the first bad one, which causes all the following ones to be bad.</p>
 <p>You are given an API <code>bool isBadVersion(version)</code> which returns whether <code>version</code> is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.</p>
 
-<ul>
-<li><code>-1</code>: Your guess is higher than the number I picked (i.e. <code>num > pick</code>).</li>
-<li><code>1</code>: Your guess is lower than the number I picked (i.e. <code>num < pick</code>).</li>
-<li><code>0</code>: your guess is equal to the number I picked (i.e. <code>num == pick</code>).</li>
-</ul>
-
-<p>Return the number that I picked.</p>
-
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
